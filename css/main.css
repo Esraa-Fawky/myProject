@@ -1,0 +1,457 @@
+body{
+    background-color: #f5f5f5;
+}
+#home {
+  background-image: url(../images/intro-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+#home .navbar{
+    z-index: 99999;
+}
+#home .nav-link {
+  font-weight: 600;
+}
+#home .collapse a {
+  color: white;
+}
+#home .nav-link.active{
+  position: relative;
+}
+#home .nav-link.active::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #fff;
+  width: 70%;
+  left: 10px;
+  bottom: 0;
+  animation: line 2s ;
+  -webkit-animation: line 2s ;
+}
+  @keyframes line {
+      0%{    width:70%;}
+      20%{    width:55%;}
+      40%{    width:35%;}
+      60%{    width:15%;}
+      80%{    width:5%;}
+  }
+ .home-layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+.home-caption h1 {
+    font-weight: 600;
+    font-size: 4.5rem;
+  } 
+  .home-caption p{
+      font_weight:700;
+  }
+  .home-caption p::after{
+      content:"";
+      animation: typing 20s linear infinite;
+      -webkit-animation: typing 20s linear infinite;
+}
+  @keyframes typing {
+      0%{
+          content:"|"
+      }
+      2%{
+        content:"|D"
+      }
+      4%{
+        content:"|De"
+      }
+      6%{
+        content:"|Des"
+      }
+      8%{
+        content:"|Desi"
+      }
+      10%{
+        content:"|Desig"
+      }
+      12%{
+        content:"|Design"
+      }
+      14%{
+        content:"|Designe"
+      }
+      16%{
+        content:"|Designer"
+      }
+      18%{
+        content:"|Designe"
+      }
+      20%{
+        content:"|Design"
+      }
+      22%{
+        content:"|Desig"
+      }
+      24%{
+        content:"|Desi"
+      }
+      26%{
+        content:"|Des"
+      }
+      28%{
+        content:"|De"
+      }
+      30%{
+        content:"|Dev"
+      }
+      32%{
+        content:"|Deve"
+      }
+      34%{
+        content:"|Devel"
+      }
+      36%{
+        content:"|Develo"
+      }
+      38%{
+        content:"|Develop"
+      }
+      40%{
+        content:"|Develope"
+      }
+      42%{
+        content:"|Developer"
+      }
+      44%{
+        content:"|Develope"
+      }
+      46%{
+        content:"|Develop"
+      }
+      48%{
+        content:"|Develo"
+      }
+      51%{
+        content:"|Devel"
+      }
+      52%{
+        content:"|Deve"
+      }
+      53%{
+        content:"|Dev"
+      }
+      54%{
+        content:"|De"
+      }
+      55%{
+        content:"|D"
+      }
+      56%{
+        content:"|"
+      }
+      57%{
+        content:"|F"
+      }
+      58%{
+        content:"|Fr"
+      } 
+      59%{
+        content:"|Fre"
+      }
+      60%{
+        content:"|Free"
+      }
+      61%{
+        content:"|Freel"
+      }
+      62%{
+        content:"|Freel"
+      }
+      63%{
+        content:"|Freela"
+      }
+      64%{
+        content:"|Freelan"
+      }
+      65%{
+        content:"|Freelans"
+      }
+      66%{
+        content:"|Freelanse"
+      }
+      67%{
+        content:"|Freelanser"
+      }
+      68%{
+        content:"|Freelanse"
+      }
+      69%{
+        content:"|Freelans"
+      }
+      70%{
+        content:"|Freelan"
+      }
+      71%{
+        content:"|Freela"
+      }
+      72%{
+        content:"|Freel"
+      }
+      73%{
+        content:"|Free"
+      }
+      74%{
+        content:"|Fre"
+      }
+      75%{
+        content:"|Fr"
+      }
+      76%{
+        content:"|F"
+      }
+      77%{
+        content:"|P"
+      }
+      78%{
+        content:"Ph"
+      }
+      79%{
+        content:"|Pho"
+      }
+      80%{
+        content:"|Phot"
+      }
+      81%{
+        content:"|Photo"
+      }
+      82%{
+        content:"|Photog"
+      }
+      83%{
+        content:"|Photogr"
+      }
+      84%{
+        content:"|Photogra"
+      }
+      85%{
+        content:"|Photograp"
+      }
+      86%{
+        content:"|Photograph"
+      }
+      87%{
+        content:"|Photographe"
+      }
+      88%{
+        content:"|Photographer"
+      }
+      89%{
+        content:"|Photographe"
+      }
+      90%{
+        content:"|Photograph"
+      }
+      91%{
+        content:"|Photograp"
+      }
+      92%{
+        content:"|Photogra"
+      }
+      93%{
+        content:"|Photogr"
+      }
+      94%{
+        content:"|Photogr"
+      }
+      95%{
+        content:"|Photog"
+      }
+      96%{
+        content:"|Photo"
+      }
+      97%{
+        content:"|Phot"
+      }
+      98%{
+        content:"|Ph"
+      }
+      99%{
+        content:"|P"
+      }
+      100%{
+        content:"|"
+      }
+    
+  }  
+/* #home .navbar {
+  z-index: 999;
+} */
+#about .about-me h2 {
+  position: relative;
+}
+#about .about-me p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+#about .about-me h2::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  left: 0;
+  bottom: -10%;
+}
+#about .container{
+    border-color:gray;
+}
+.brdr{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin:10px auto;
+}
+#services .subtitle h2{
+    font-size: 3rem;
+}
+.para-color{
+    color: #4e4e4e;
+}
+#services .services-item i{
+    font-size: 1.7rem;
+    background-color:#0078ff;
+    color: #fff;
+    border:10px solid #f1f2ff;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+#services .services-item:hover i {
+    background-color:#fff;
+    color: #0078ff;
+    border-color:#73c9ff;
+}
+.sub-section{
+    background-image: url(../images/post-3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.sub-layer{
+    background-color: #0078ff;
+    opacity: 0.7;
+}
+.sub-section i{
+    border:10px solid #f1f2ff;
+    border-radius:50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    font-size: 1rem;
+    color: #fff;
+}
+.sub-section span{
+    font-size: 2rem;
+}
+#portfolio .card img{
+    transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -ms-transition:all 1s;
+    -o-transition:all 1s;
+  }
+  #portfolio .card:hover img{
+    transform:scale(1.3);
+    -webkit-transform:scale(1.3);
+    -moz-transform:scale(1.3);
+    -ms-transform:scale(1.3);
+    -o-transform:scale(1.3);
+}
+  #portfolio .member {
+    background-image:url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  #portfolio .member-layer{ 
+    background-color: #0078ff;
+    opacity: 0.8;  
+  }
+  #portfolio button{
+    width: 15px;
+    height: 15px;
+  }
+  #portfolio .client p{
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .carousel-dark .carousel-indicators button {
+    background-color: #fff !important;
+  }
+#blog  a {
+    color: #000;
+    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+#blog  a:hover {
+    color:#007aff;
+}
+#blog .container-fluid img{
+    width: 30px;
+    height: 30px;
+}
+#blog .card-catagory {
+    top: 55%; 
+}
+#contact-us .contact-sec{
+    background-image:url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position:center center;
+}
+#contact-us .contact-layer{ 
+    background-color: #0078ff;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+#contact-us .container{
+    z-index: 1;
+}
+#contact-us  h2{
+    position: relative;   
+}
+#contact-us  h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 20%;
+    left: 0;
+    bottom: -8%;
+}
+#contact-us .container p{
+    font-size: 1.25rem;
+    font-weight: 300
+}
+#contact-us .social-icon i{
+
+    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+#contact-us .social-icon i:hover{
+    color: #fff;
+    background-color: #0078ff
+}
